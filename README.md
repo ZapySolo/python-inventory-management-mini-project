@@ -10,9 +10,9 @@ after that...
 
 database base part
 
-`$brew install mongodb`
-`$mkdir -p /data/db`
-`$sudo chown -R `id -un` /data/db`
+`$brew install mongodb`<br /> 
+`$mkdir -p /data/db`<br /> 
+``$sudo chown -R `id -un` /data/db``<br /> 
 
 after installing mongoDB run the mongo demon (on port 27017... it run on this port by default)
 
