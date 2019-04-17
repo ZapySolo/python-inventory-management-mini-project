@@ -1,18 +1,20 @@
-`$install python`
+`$brew install python`
 
-first off... you must have python installed(its better if you install the latest version because in python 3.7 many tkinter methods were deprecated)
+first off... you must have python installed(its better if you install the latest version because in python 3.7 many tkinter methods were deprecated). To know how to install brew <a href="https://brew.sh/">click here</a>.
 
-`$ install pymongo`
+`$python -m pip install pymongo`
 
-if you are using pycharm IDE then make sure to add the pymongo package to you python interpreter.
+if you are using pycharm IDE then make sure to add the pymongo package to you python interpreter. (I recommend using <a href="https://pypi.org/project/pip/">pip</a> to install pymongo).
 
 after that...
 
 database base part
 
-`$install mongoDB`
+`$brew install mongodb`
+`$mkdir -p /data/db`
+`$sudo chown -R `id -un` /data/db`
 
-after installing mongoDB run the mongo demon (on default port 27017)
+after installing mongoDB run the mongo demon (on port 27017... it run on this port by default)
 
 `$mongod`
 
