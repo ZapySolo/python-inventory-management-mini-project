@@ -4,7 +4,7 @@ first off... you must have python installed(its better if you install the latest
 
 for mac `$python -m pip install pymongo`
 
-for windows `$python -m pip install pymongo`
+for windows `$python -m pip install pymongo`. if any problem while installing <a href="http://api.mongodb.com/python/current/installation.html/">click here</a>.
 
 if you are using pycharm IDE then make sure to add the pymongo package to you python interpreter. (I recommend using <a href="https://pypi.org/project/pip/">pip</a> to install pymongo).
 
