@@ -1,7 +1,6 @@
 from tkinter import *
 from src.welcome_screen import WelcomeScreen
 
-
 if __name__ == '__main__':
     root = Tk()
     root.title("Inventory Management")

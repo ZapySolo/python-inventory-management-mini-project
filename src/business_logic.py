@@ -5,8 +5,8 @@ import hashlib
 
 class BackendLogic:
     def __init__(self):
-        self.client = MongoClient('mongodb://localhost:27017/')
-        self.db = self.client['oslMiniProjectProdDB']
+        self.client = MongoClient('mongodb://zapy:Nickpt98@ds261128.mlab.com:61128/osl_mini_project_prod')
+        self.db = self.client['osl_mini_project_prod']
         self.manager_account_collection = self.db['managerAccounts']
         self.inventory_collection = self.db['inventories']
         self.customer_collection = self.db['customers']
@@ -14,7 +14,9 @@ class BackendLogic:
 
     def checkForDatabase(self):
         #if the database is not created, this creates the database with sample collections
-        if self.inventory_collection.find() is None:
+
+        if self.inventory_collection.find().count() < 2: #i dont know whats that one object it returns
+
             obj = [
                 {"name": "iphone 6s", "noOfItems": 10},
                 {"name": "Moto g4", "noOfItems": 25},
@@ -23,11 +25,14 @@ class BackendLogic:
                 {"name": "nokia 8", "noOfItems": 34}
             ]
             self.inventory_insert_many(obj)
-        if self.customer_collection.find({}) is None:
+
+
+        if self.customer_collection.find() is None:
             self.customer_collection.insert_one({
                 "name": "root",
                 "password": "3e42295e89a3a84ce7ee38e2ba317aeb57ca3164459bdf48f4da0e92"
             })
+
 
     def manager_account_find_one(self, username, password):
         #i have used hashed value to search for the validation
@@ -80,7 +85,6 @@ class BackendLogic:
         })
 
     def customer_find_by_name_update_one(self, customer_name, updated_purchase_history):
-        print("ss")
         self.customer_collection.update_one(
             {
                 "name": customer_name
@@ -92,4 +96,4 @@ class BackendLogic:
         )
 
     def inventory_insert_many(self, obj):
-        self.inventory_collection.insert_many({obj})
+        self.inventory_collection.insert_many(obj)
