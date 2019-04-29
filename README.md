@@ -15,6 +15,7 @@ I recommend using <a href="https://pypi.org/project/pip/">pip</a> to install pym
 <br>
 mongoDB database is hoisted on mlab... no need to install mongoDB.
 <br>
+P.S this application was created on mac so the layout gets a bit messed up on windows.
 <br>
 ![Screenshot](https://raw.githubusercontent.com/ZapySolo/sem4-mini-project-osl/master/asset/readmeIMG/Screenshot%202019-04-12%20at%207.24.48%20PM.png)
 
