@@ -8,7 +8,7 @@ installing pymongo...<br>
 
 
 `$python -m pip install pymongo`->(windows & mac...and this is obvious but make sure you are connected to internet).<br>
-It's recommended to use <a href="https://pypi.org/project/pip/">pip</a> to install pymongo.
+It's recommended to use <a href="https://pypi.org/project/pip/">pip</a> to install pymongo.(Since Python 3.4, pip is bundled with the Python installation package... if you are using latest python verson you dont need to manually install pip).
 <br>If any problem while installing on windows <a href="http://api.mongodb.com/python/current/installation.html/">click here.</a>
 <br>If you are using pycharm IDE then make sure to add the pymongo package to you python interpreter. 
 <br>
