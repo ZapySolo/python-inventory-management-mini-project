@@ -20,7 +20,7 @@ zapy.py is the entry point of the application. So just cd into the root folder a
 `$python zapy.py`
   <br>
 <br>
-P.S this application was created on mac and for display resoultion issues the layout gets a bit messed up on windows.
+P.S this application was created on mac and cuz of display resoultion issues the layout gets a bit messed up on windows.
 <br>
 <br>
 ![Screenshot](https://raw.githubusercontent.com/ZapySolo/sem4-mini-project-osl/master/asset/readmeIMG/Screenshot%202019-04-12%20at%207.24.48%20PM.png)
