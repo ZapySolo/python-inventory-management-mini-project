@@ -8,21 +8,13 @@ installing pymongo...<br>
 
 
 `$python -m pip install pymongo`->(windows & mac...and this is obvious but make sure you are connected to internet).<br>
-It's recommended to use <a href="https://pypi.org/project/pip/">pip</a> to install pymongo.(Since Python 3.4, pip is bundled with the Python installation package... if you are using latest python verson you dont need to manually install pip).
-<br>If any problem while installing on windows <a href="http://api.mongodb.com/python/current/installation.html/">click here.</a>
-<br>If you are using pycharm IDE then make sure to add the pymongo package to you python interpreter. 
-<br>
-<br>
-mongoDB database is hoisted on mlab... no need to install mongoDB.
-<br>
-<br>
+It's recommended to use <a href="https://pypi.org/project/pip/">pip</a> to install pymongo.(Since Python 3.4, pip is bundled with the Python installation package... if you are using latest python verson you dont need to manually install pip).<br>
+If any problem while installing on windows <a href="http://api.mongodb.com/python/current/installation.html/">click here</a><br>
+If you are using pycharm IDE then make sure to add the pymongo package to you python interpreter. <br><br>
+MongoDB database is hosted on mlab... no need to install mongoDB.<br><br>
 zapy.py is the entry point of the application. So just cd into the root folder and run<br>
-`$python zapy.py`
-  <br>
-<br>
-P.S this application was created on mac and cuz of display resoultion issues the layout gets a bit messed up on windows.
-<br>
-<br>
+`$python zapy.py`<br><br>
+P.S this application was created on mac and cuz of display resoultion issues the layout gets a bit messed up on windows.<br><br>
 ![Screenshot](https://raw.githubusercontent.com/ZapySolo/sem4-mini-project-osl/master/asset/readmeIMG/Screenshot%202019-04-12%20at%207.24.48%20PM.png)
 
 ![Screenshot](https://raw.githubusercontent.com/ZapySolo/sem4-mini-project-osl/master/asset/readmeIMG/Screenshot%202019-04-12%20at%207.25.30%20PM.png)
