@@ -15,7 +15,7 @@ It's recommended to use <a href="https://pypi.org/project/pip/">pip</a> to insta
 <br>
 mongoDB database is hoisted on mlab... no need to install mongoDB.
 <br>
-<vr>
+<br>
 zapy.py is the entry point of the application. So just cd into the root folder and type<br>
 `$python zapy.py` ...enjoy
   <br>
