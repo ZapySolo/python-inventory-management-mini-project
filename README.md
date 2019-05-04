@@ -14,7 +14,7 @@ If you are using pycharm IDE then make sure to add the pymongo package to you py
 MongoDB database is hosted on mlab... no need to install mongoDB.<br><br>
 zapy.py is the entry point of the application. So just cd into the root folder and run<br>
 `$python zapy.py`<br><br>
-P.S this application was created on mac and cuz of display resoultion issues the layout gets a bit messed up on windows.<br><br>
+P.S this application was created on mac and cuz of display resoultion issues the layout gets a bit messed up on low resolution screen.<br><br>
 ![Screenshot](https://raw.githubusercontent.com/ZapySolo/sem4-mini-project-osl/master/asset/readmeIMG/Screenshot%202019-04-12%20at%207.24.48%20PM.png)
 
 ![Screenshot](https://raw.githubusercontent.com/ZapySolo/sem4-mini-project-osl/master/asset/readmeIMG/Screenshot%202019-04-12%20at%207.25.30%20PM.png)
