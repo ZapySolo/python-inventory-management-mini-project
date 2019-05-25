@@ -1,11 +1,11 @@
 # Installation
 
-#### Install Python
+### Install Python
 ```sh
 $ brew install python
 ```
 >Its better if you install the latest version because in python 3.7 many tkinter methods were deprecated. 
->To know how to install brew [click here](https://https://brew.sh/)
+>To know how to install brew [click here].(https://https://brew.sh/)
 
 ### Install Pymongo
 For Windows and Mac
