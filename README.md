@@ -1,9 +1,6 @@
 # Installation
 
-***
-
 #### Install Python
-MacOSX
 ```sh
 $ brew install python
 ```
