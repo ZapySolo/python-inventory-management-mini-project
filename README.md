@@ -21,7 +21,11 @@ MongoDB database is hosted on mlab... no need to install mongoDB.
 
 # Run the application
 zapy.py is the entry point of the application.`cd` into the root folder and run the application
+```sh
+$ cd <Path-To-Folder>/python-inventory-management-mini-project-master
+$ python zapy.py
 ```
+
 >This application was created on mac and cuz of display resoultion issues the layout gets a bit messed up on low resolution screen.
 
 ![Screenshot](https://raw.githubusercontent.com/ZapySolo/sem4-mini-project-osl/master/asset/readmeIMG/Screenshot%202019-04-12%20at%207.24.48%20PM.png)
