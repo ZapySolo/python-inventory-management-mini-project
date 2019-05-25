@@ -16,11 +16,11 @@ It's recommended to use [pip](https://pypi.org/project/pip) to install pymongo.(
 If any problem while installing on windows [click here](http://api.mongodb.com/python/current/installation.html/). 
 If you are using pycharm IDE then make sure to add the pymongo package to you python interpreter. [    How?](https://www.jetbrains.com/help/pycharm/installing-uninstalling-and-upgrading-packages.html)
 
-MongoDB database is hosted on mlab... no need to install mongoDB.<br>
-zapy.py is the entry point of the application. So just cd into the root folder and run
-```sh
-$ cd <Path-To-Folder>/python-inventory-management-mini-project-master
-$ python zapy.py
+### Database
+MongoDB database is hosted on mlab... no need to install mongoDB.
+
+# Run the application
+zapy.py is the entry point of the application.`cd` into the root folder and run the application
 ```
 >This application was created on mac and cuz of display resoultion issues the layout gets a bit messed up on low resolution screen.
 
